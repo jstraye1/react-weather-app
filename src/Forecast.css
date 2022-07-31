@@ -1,0 +1,38 @@
+.Forecast .future-weather-icon {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100px;
+  padding: 5px 10px;
+}
+
+.Forecast .future-weather {
+  padding: 0 16px;
+}
+
+.Forecast .future-temp,
+.Forecast .weekday {
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.8em;
+  margin-bottom: 5px;
+}
+
+.Forecast .future-temp {
+  font-size: 16px;
+}
+
+.Forecast .future-low-temp {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 200;
+  font-size: smaller;
+}
+
+.Forecast .weekday {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.Forecast .forcast-col:hover {
+  background: rgba(250, 207, 106, 0.3);
+}

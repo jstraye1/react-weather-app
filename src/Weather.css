@@ -1,0 +1,153 @@
+.Weather input.city {
+  text-transform: capitalize;
+}
+
+.Weather .current-row {
+  margin: 0 20px;
+}
+@media only screen and (max-width: 575px) {
+  .Weather .current-row {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.Weather .search-btn-area {
+  padding: 0;
+  margin: 0px;
+}
+@media only screen and (max-width: 575px) {
+  .Weather .search-btn-area {
+    padding: 0;
+    margin: 0px;
+    padding-left: 12px;
+  }
+}
+
+.Weather .city-entry {
+  border: 1px solid #aaa;
+}
+
+.Weather .search-btn,
+.Weather .current-btn {
+  width: 105px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.Weather .current-btn {
+  color: #fff;
+  margin-left: 5px;
+}
+
+.Weather .current-btn:hover {
+  color: #fff;
+}
+
+.Weather .current-btn:focus {
+  color: #fff;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.Weather .search-bar {
+  padding-right: 8px;
+}
+
+.Weather .current-city {
+  font-size: 50px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 0px;
+}
+.Weather .current-date {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+}
+.Weather .current-date small {
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 575px) {
+  .Weather .current-city {
+    font-size: 45px;
+  }
+  .Weather .current-date {
+    font-size: 16px;
+  }
+}
+
+.Weather .current-temp {
+  color: #000;
+  font-size: 60px;
+  font-weight: 500;
+  padding: 5px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.Weather .current-weather-description {
+  margin-left: 55px;
+  padding-top: 0px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 575px) {
+  .Weather .current-temp {
+    margin: 0;
+    text-align: center;
+  }
+  .Weather .current-weather-description {
+    margin: 0 0 10px 0;
+    text-align: center;
+  }
+}
+
+.Weather .temp-unit {
+  position: relative;
+  top: -25px;
+  left: 10px;
+  font-size: 30px;
+}
+
+.Weather .unit {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.Weather .unit:hover {
+  color: #0b5ed7;
+}
+
+.Weather .active {
+  text-decoration: none;
+  color: #000;
+  cursor: default;
+}
+
+.Weather .active:hover {
+  color: #000;
+  cursor: default;
+}
+
+.Weather .current-conditions {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.Weather .current-weather-icon {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding: 5px 0 10px 0;
+}
+
+@media only screen and (max-width: 575px) {
+  .Weather .current-weather-icon {
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+}
