@@ -8,3 +8,8 @@
 .App .card {
   border: 2px solid #aaa;
 }
+
+.App .coded-by {
+  margin-top: 15px;
+  font-size: 12px;
+}
