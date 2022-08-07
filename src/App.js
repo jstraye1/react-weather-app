@@ -7,7 +7,7 @@ export default function App() {
     <div className="App container">
       <div className="card weather-app-container">
         <div className="card-body">
-          <Weather />
+          <Weather defaultCity="Nashville" />
         </div>
       </div>
       <p className="coded-by">
