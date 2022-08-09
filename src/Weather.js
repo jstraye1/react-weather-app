@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
 import Forecast from "./Forecast";
-import sun from "./images/01d.png";
 import "./Weather.css";
 
 export default function Weather(props) {
@@ -38,7 +37,7 @@ export default function Weather(props) {
       date: new Date(response.data.dt * 1000),
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
-      icon: sun,
+      icon: response.data.weather[0].icon,
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
       feelsLike: response.data.main.feels_like,
