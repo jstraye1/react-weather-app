@@ -6,8 +6,8 @@
   padding: 5px 10px;
 }
 
-.Forecast .future-weather {
-  padding: 0 16px;
+.future-weather {
+  padding: 0;
 }
 
 .Forecast .future-temp,
@@ -20,6 +20,7 @@
 
 .Forecast .future-temp {
   font-size: 16px;
+  margin-bottom: 0;
 }
 
 .Forecast .future-low-temp {
@@ -33,6 +34,10 @@
   font-weight: 400;
 }
 
-.Forecast .forcast-col:hover {
-  background: rgba(250, 207, 106, 0.3);
+.Forecast .today {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.forecast-col {
+  padding: 10px;
 }
