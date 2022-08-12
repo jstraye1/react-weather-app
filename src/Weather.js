@@ -66,9 +66,6 @@ export default function Weather(props) {
               <button type="submit" className="btn btn-primary search-btn">
                 Search
               </button>
-              <button className="btn btn-info current-btn">
-                Current <i className="fa-solid fa-location-arrow"></i>
-              </button>
             </div>
           </div>
         </form>
