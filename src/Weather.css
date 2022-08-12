@@ -20,7 +20,6 @@
   .Weather .search-btn-area {
     padding: 0;
     margin: 0px;
-    padding-left: 12px;
   }
 }
 
@@ -29,9 +28,15 @@
 }
 
 .Weather .search-btn {
-  width: 150px;
+  width: 95%;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 575px) {
+  .Weather .search-btn {
+    font-size: 16px;
+  }
 }
 
 .Weather .search-bar {
@@ -134,5 +139,6 @@
   .Weather .current-weather-icon {
     padding: 10px;
     padding-bottom: 20px;
+    max-width: 200px;
   }
 }

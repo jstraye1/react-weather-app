@@ -50,7 +50,7 @@ export default function Weather(props) {
       <div className="Weather">
         <form className="Search" onSubmit={handleSubmit}>
           <div className="row justify-content-evenly">
-            <div className="col-sm-9 search-bar">
+            <div className="col-9 search-bar">
               <div className="mb-3">
                 <input
                   type="text"
@@ -62,7 +62,7 @@ export default function Weather(props) {
                 />
               </div>
             </div>
-            <div className="col-sm-3 search-btn-area">
+            <div className="col-3 search-btn-area">
               <button type="submit" className="btn btn-primary search-btn">
                 Search
               </button>
