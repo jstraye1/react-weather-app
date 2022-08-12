@@ -33,14 +33,19 @@
   margin-bottom: 10px;
 }
 
+.Weather .search-bar {
+  padding-right: 8px;
+}
+
 @media only screen and (max-width: 575px) {
   .Weather .search-btn {
     font-size: 16px;
+    width: 98%;
   }
-}
-
-.Weather .search-bar {
-  padding-right: 8px;
+  .Weather .search-bar {
+    padding-right: 3px;
+    padding-left: 3px;
+  }
 }
 
 .Weather .current-city {
@@ -63,7 +68,7 @@
     font-size: 45px;
   }
   .Weather .current-date {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
