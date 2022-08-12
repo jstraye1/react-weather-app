@@ -28,25 +28,10 @@
   border: 1px solid #aaa;
 }
 
-.Weather .search-btn,
-.Weather .current-btn {
-  width: 105px;
+.Weather .search-btn {
+  width: 150px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
   margin-bottom: 10px;
-}
-
-.Weather .current-btn {
-  color: #fff;
-  margin-left: 5px;
-}
-
-.Weather .current-btn:hover {
-  color: #fff;
-}
-
-.Weather .current-btn:focus {
-  color: #fff;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 .Weather .search-bar {
